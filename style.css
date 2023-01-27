@@ -19,7 +19,7 @@ html{
 .inner-div{
     width: 40vw;
     background-color: #ffff;
-    padding: 30px 80px;
+    padding: 40px 80px;
     border-radius: 10px;
     box-shadow: 0 10px 10px -.5rem rgba(0,0,0,0.5);
 }
