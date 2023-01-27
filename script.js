@@ -61,6 +61,11 @@ const getCheckAnswer = () =>{
     return answer;
 
 };
+const deselectAll = () =>{
+    answers.forEach((curAnsElem) =>{
+        curAnsElem.checked=false
+    })
+}
 
 submit.addEventListener("click",() => {
     const checkedAnswer = getCheckAnswer();
@@ -69,12 +74,13 @@ submit.addEventListener("click",() => {
         score++;
     };
     questionCount++;
+    deselectAll();
 
     if(questionCount<quiz.length){
         loadQuestion()
     }else{
 showScore.innerHTML = `<h3> Your Score ${score}/${quiz.length}</h3>
-<button class="btn" onclick="location.reload()"><</button>`;
+<button class="btn" onclick="location.reload()">Try Again</button>`;
 showScore.classList.remove("scoreArea")
     }
 })
