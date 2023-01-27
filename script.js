@@ -1,32 +1,32 @@
 console.log("hello")
 const quiz=[{
-    question: "Q1: What is the full form of HTML",
-    a: "Hyper Text MakeUp Language",
-    b: "Hyper Tilt MakrUp Language",
-    c: "HyperText Markup Language",
-    d: "Hyper Text Makeup Language",
-    ans: "ans4"
-},
-   { question:"Q2: What is the full form of HTML",
-    a: "Hyper Text MakeUp Language",
-    b: "Hyper Tilt MakrUp Language",
-    c: "HyperText Markup Language",
-    d: "Hyper Text Makeup Language",
-    ans: "ans1"
-},
-  {  question:"Q3: What is the full form of HTML",
-    a: "Hyper Text MakeUp Language",
-    b: "Hyper Tilt MakrUp Language",
-    c: "HyperText Markup Language",
-    d: "Hyper Text Makeup Language",
-    ans: "ans4"
-},
-  {  question:"Q4: What is the full form of HTML",
-    a: "Hyper Text MakeUp Language",
-    b: "Hyper Tilt MakrUp Language",
-    c: "HyperText Markup Language",
-    d: "Hyper Text Makeup Language",
+    question: "Q1: Which of the keyword is used to define the variable in the javascript?",
+    a: "var",
+    b: "let",
+    c: "Both A & B",
+    d: "None of the Above",
     ans: "ans3"
+},
+   { question:"Q2: which of the method is used to get HTML element in javascript?",
+    a: "getElementbyId()",
+    b: "getElementsByClassName()",
+    c: "Both A & B",
+    d: "None of the above",
+    ans: "ans3"
+},
+  {  question:"Q3: What does NaN means?",
+    a: "Negative Number",
+    b: "Not a Number",
+    c: "Both A & B",
+    d: "None of the Above",
+    ans: "ans2"
+},
+  {  question:"Q4: How do we put Javascript inside HTML?",
+    a: "<js>",
+    b: "<javascript>",
+    c: "<scripting>",
+    d: "<script>",
+    ans: "ans4"
 }
 ]
 const question=document.querySelector(".question");

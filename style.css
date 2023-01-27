@@ -17,7 +17,7 @@ html{
     background-color: rgba(166, 172, 236, .6);
 }
 .inner-div{
-    width: 40vw;
+    width: 60vw;
     background-color: #ffff;
     padding: 40px 80px;
     border-radius: 10px;
@@ -29,7 +29,7 @@ html{
     margin: 15px 0 40px 0;
 }
 .inner-div li{
-    font-family: 20px;
+    font-size: 20px;
     margin-top: 15px;
     
 }
